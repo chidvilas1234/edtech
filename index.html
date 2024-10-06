@@ -152,18 +152,19 @@
         }
         
         .feature {
-            flex-basis: calc(50% - 1rem);
-            background-color: var(--background-color);
-            padding: 1.5rem;
-            margin-bottom: 1rem;
-            border-radius: 8px;
-            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        flex-basis: calc(50% - 1rem);
+        background-color: var(--background-color);
+        padding: 1.5rem;
+        margin-bottom: 1rem;
+        border-radius: 8px;
+        box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
         }
-        
+
         .feature:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+        background-color: #f0f8ff; /* Light blue color */
+        transform: translateY(-5px);
+        box-shadow: 0 6px 8px rgba(0,0,0,0.15);
         }
         
         footer {
@@ -226,21 +227,34 @@
         <section id="about">
             <h2>About Us</h2>
             <p>
-                I'm Chidvilas Dasaradhi, a passionate technologist with a journey rooted in curiosity and exploration. My academic path began at Neil Gogte Institute of Technology, where I honed my problem-solving skills through research and innovative projects like cryptocurrency forecasting and glaucoma detection using AI. With hands-on experience as a Full-stack Developer at Experian, I specialize in building scalable solutions, from backend microservices to AI-driven applications. My love for teaching stems from my drive to share knowledge, helping others navigate and excel in the evolving field of technology.
+                Hi, I’m Chidvilas Dasaradhi, a passionate educator and technologist who loves teaching math and computer science. My journey into teaching began during my college days at Neil Gogte Institute of Technology, where I helped my peers grasp advanced concepts in computer science and mathematics. This passion led me to take on the role of a teaching assistant, and it’s been growing ever since.
+During the pandemic, I extended my love for teaching by starting online tutoring, where I taught mathematics to students in Texas. My approach is centered on simplifying complex ideas using real-life examples, ensuring that learning is both practical and enjoyable. I follow a structured, step-by-step methodology, providing weekly notes aligned with the latest US curriculum standards.
+As a full-stack developer at Experian and an enthusiast in AI-driven technologies, I continuously bring real-world experiences into my lessons, helping students not just understand concepts but also see their real-world applications. Whether it’s math or technology, my goal is to inspire curiosity and empower students to excel in an ever-evolving world.
             </p>
         </section>
         
-        <section id="offerings">
-            <h2>Our Offerings</h2>
-            <div class="features">
-                <div class="feature">
-                    <h3>Mathematics</h3>
-                    <p>From basic arithmetic to advanced calculus, we've got you covered.</p>
-                </div>
-                <div class="feature">
-                    <h3>Computer Science</h3>
-                    <p>Learn programming, algorithms, and more with our expert guidance.</p>
-                </div>
+        <section id="our-offering">
+            <h2>Our Offering</h2>
+            <div class="feature">
+                <h3>Mathematics</h3>
+                <p>Price: <span class="highlight">$120</span> per month</p>
+                <p>Includes 8 classes per month, each class scheduled for 1 hour.</p>
+                <p>Discord Community Support</p>
+                <p>Class Notes</p>
+            </div>
+            <div class="feature">
+                <h3>Computer Science</h3>
+                <p>Price: <span class="highlight">$130</span> per month</p>
+                <p>Includes 8 classes per month, each class scheduled for 1 hour.</p>
+                <p>Discord Community Support</p>
+                <p>Class Notes</p>
+            </div>
+            <div class="feature">
+                <h3>Combined Plan</h3>
+                <p>Price: <span class="highlight">$135</span> per month</p>
+                <p>Includes a mix of classes from different subjects, totaling 10 classes per month, each class scheduled for 1 hour.</p>
+                <p>Discord Community Support</p>
+                <p>Class Notes</p>
             </div>
         </section>
         
@@ -255,23 +269,23 @@
             </ul>
         </section>
         
-        <section id="pricing">
-            <h2>Pricing</h2>
-            <p>Our courses are priced at <span class="highlight">$120</span> per month. This includes all study materials and personalized support(8 classes a month).</p>
-        </section>
-        
         <section id="demo">
             <h2>Book a Free Demo</h2>
             <p>Experience our teaching firsthand! Book a free demo session today.</p>
-            <a href="https://calendly.com/chidvilasdasaradhi" class="cta-button" target="_blank">Schedule Your Free Demo</a>
+            <a href="https://meet.google.com/iwg-cvwe-fby" class="cta-button" target="_blank">Schedule Your Free Demo</a>
         </section>
         
+        <head>
+            <!-- Other head elements -->
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+        </head>
         <section id="contact">
             <h2>Contact Us</h2>
             <p>Ready to start your learning journey? Contact us today to enroll or learn more about our programs!</p>
-            <p>Email: chidvilasdasaradhi@gmail.com</p>
-            <p>Phone: +91 9390123594</p>
-            <p>LinkedIn: <a href="https://www.linkedin.com/in/chidvilas-dasaradhi-9a9a7318b/" target="_blank">Connect with me on LinkedIn</a></p>
+            <p><i class="fas fa-envelope"></i> Email: wiseacademy75@gmail.com</p>
+            <p><i class="fab fa-whatsapp"></i> Join our WhatsApp Group: <a href="https://chat.whatsapp.com/FVKYEyMznGm2fxIrys3Do1" target="_blank">Click here to join</a></p>
+            <p><i class="fab fa-linkedin"></i> LinkedIn: <a href="https://www.linkedin.com/in/chidvilas-dasaradhi-9a9a7318b/" target="_blank">Connect with me on LinkedIn</a></p>
+            <p>Feel free to get in touch if you're facing any technical issues. We're here to help!</p>
         </section>
     </div>
     
